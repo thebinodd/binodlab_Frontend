@@ -2,7 +2,6 @@
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import { images } from "./constants/images";
-import "@/app/forFonts.css"
 import Link from "next/link";
 import BlogCard from "@/components/BlogCard";
 import { Stack, Chip } from "@mui/material";
@@ -83,9 +82,9 @@ export default function PortfolioPage() {
 
             <div className="Hero  lg:ml-[10vw] lg:w-[50vw] lg:px-10 flex flex-col lg:h-screen justify-start lg:mt-[30vh] my-[5vh] items-start gap-6 lg:gap-10">
 
-              <h2 className="lg:text-6xl text-3xl font-bold text-center neoBrutalism">Welcome to</h2>
-              <h1 className='lg:text-8xl text-5xl font-extrabold  text-center -mt-5  neoBrutalismforHero'>BinodLab</h1>
-              <h2 className='italic text-start lg:w-4/5 lg:text-xl text-slate-600 text-sm paraFont'>Hi! I am Binod. A React/React Native Full Stack Developer and AI/ML enthusiast.I specialize in building fast, SEO-optimized, and scalable web applications—from simple landing pages to full production-ready platforms.</h2>
+              <h2 className="lg:text-6xl text-3xl font-bold text-center neoBrutalism">Hey, This is</h2>
+              <h1 className='lg:text-8xl text-5xl font-extrabold  text-center -mt-5  neoBrutalismforHero'>Binod</h1>
+              <h2 className='italic text-start lg:w-4/5 lg:text-xl text-slate-600 text-sm paraFont'>Hi! I am Binod. A React/React Native Full Stack Developer and AI/ML enthusiast.I specialize in building fast, SEO-optimized, and scalable web applications integrated with scalable and secured backend.</h2>
 
 
               
@@ -392,169 +391,7 @@ export default function PortfolioPage() {
 
         {/* Resources Section */}
 
-        <section id="resources" className=" g:mt-10 mt-20 mb-20 w-screen border-white flex justify-center items-center  text-center">
 
-          <div className="space-y-5 lg:w-[75vw]  lg:mx-10 mx-2 my-2 neoBrutalism">
-            <details className="group [&amp;_summary::-webkit-details-marker]:hidden ">
-              <summary className="flex lg:cursor-none items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
-                <span className="font-semibold text-md lg:text-md">Learn Website Development</span>
-
-                <svg className="size-5 shrink-0 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </summary>
-
-
-              <div className="webResources w-full flex flex-col neoBrutalism">
-
-
-                <div className="firstRow">
-                  <div className="p-4 flex flex-row gap-3 justify-evenly item-start">
-
-                    <Link href="https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&si=y32HHCcRYFuaKSmA" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                      <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCKktmHuXV_macV6MoUwhKxwzXJ7w" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                      <p className=" text-xs lg:text-sm">🔗 Learn Full Stack Web Dev</p>
-
-
-                    </Link>
-                    <Link href="https://youtube.com/playlist?list=PLu71SKxNbfoCXO80Z4miZHTL5GxfFbz7A&si=nMAy8Eaw9kY2MqxE" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                      <img src="https://i.ytimg.com/vi/3BEn2E9PvBM/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLATU7lpzVG7UM6sIVJ0EP-vZcRzJw" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                      <p className=" text-xs lg:text-sm">🔗 Learn Web Authentication</p>
-
-
-                    </Link>
-                    <Link href="https://youtube.com/playlist?list=PLt5mNkGuWcuWbFcwT8V5a_BpLVa1AVXD4&si=LUAHVcsFs2ye-G0e" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                      <img src="https://i.ytimg.com/vi/cr1XaYBqlhs/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAzi5fJY8_J6KlN6eX3cabuxOcjcw" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                      <p className=" text-xs lg:text-sm">🔗 Learn Chat App with Socket IO</p>
-
-
-                    </Link>
-                    <Link href="https://youtu.be/q8EevlEpQ2A?si=q6zM0VztZJuQ8KYB" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                      <img src="https://i.ytimg.com/vi/q8EevlEpQ2A/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA3wvZ2tf440prOd9AGo4PhiRVUqw" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                      <p className=" text-xs lg:text-sm">🔗 Learn Git and Github</p>
-
-
-                    </Link>
-
-
-
-
-                  </div>
-                  <div className="secondRow">
-                    <div className="p-4 flex flex-row gap-3 justify-evenly item-start">
-
-                      <Link href="https://youtube.com/playlist?list=PLUcsbZa0qzu0gVRFlVfscqjD84TqMssOt&si=8-nnHuR2oyGe0KZH" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                        <img src="https://i.ytimg.com/pl_c/PLUcsbZa0qzu0gVRFlVfscqjD84TqMssOt/studio_square_thumbnail.jpg?sqp=COOWzMwG-oaymwEICIAKENAFSFqi85f_AwYI3tvCwwY=&rs=AOn4CLAy1lZsDyFqeqXWkDugp8koS1Wwdw" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                        <p className=" text-xs lg:text-sm">🔗 Learn Java Spring Bootv</p>
-
-
-                      </Link>
-                      <Link href="https://youtu.be/ig26iRcMavQ?si=ohYLpvSPcI1N4bOT" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                        <img src="https://i.ytimg.com/vi/ArmPzvHTcfQ/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA8QseBspGKnXKVkc9vS1fQ-yoqwA" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                        <p className=" text-xs lg:text-sm">🔗 Advance Web Project</p>
-
-
-                      </Link>
-                      <Link href="https://youtube.com/playlist?list=PLjiHFwhbHYlEmPhn68XdG2p2k4X47XR-8&si=BE7IFajYHK1bl7yQ" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                        <img src="https://i.ytimg.com/vi/BOt3MNB71gI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAMChmO3IQL0gfGfqQMQmD3Op08CQ" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                        <p className=" text-xs lg:text-sm">🔗 Learn UI/UX Design</p>
-
-
-                      </Link>
-                      <Link href="https://youtu.be/JmpDGMgRFfo?si=jyVamlLdNkMkOBzF" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                        <img src="https://i.ytimg.com/vi/JmpDGMgRFfo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDFP-6Og6xq9IfPPD4UquzR8w62OQ" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                        <p className=" text-xs lg:text-sm">🔗 Advance Backend Project</p>
-
-
-                      </Link>
-
-
-
-
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-
-            </details>
-
-            <details className="group [&amp;_summary::-webkit-details-marker]:hidden">
-              <summary className="flex lg:cursor-none items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
-                <span className="font-semibold text-md lg:text-md">Learn App Development (React Native)</span>
-
-                <svg className="size-5 shrink-0 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </summary>
-
-              <div className="p-4 flex flex-row gap-3 justify-start item-start">
-
-                <Link href="https://youtu.be/CzJQEstIiEI?si=AI86ghQYsssVHDNw" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                  <img src="https://i.ytimg.com/vi/ZBCUegTZF7M/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBf4c4C8CtzjjIRjTxeTVBydv4p7Q" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                  <p className=" text-xs lg:text-sm">🔗 Learn React Native</p>
-
-
-                </Link>
-
-
-
-
-              </div>
-            </details>
-
-            <details className="group [&amp;_summary::-webkit-details-marker]:hidden">
-              <summary className="flex lg:cursor-none items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
-                <span className="font-semibold text-md lg:text-md">Learn Python</span>
-
-                <svg className="size-5 shrink-0 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </summary>
-
-              <div className="p-4 flex flex-row gap-3 justify-start item-start">
-
-                <Link href="https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&si=v2yF1Y-QylPBza0c" target="_blank" className="learnWebDev cursor-none flex flex-col gap-3 items-start justify-start">
-                  <img src="https://i.ytimg.com/vi/7wnove7K-ZQ/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDMirEJX-r2pxI5nylJWpyclDDEcg" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                  <p className=" text-xs lg:text-sm">🔗 Learn Basics of Python</p>
-
-
-                </Link>
-
-
-
-
-
-              </div>
-            </details>
-            <details className="group [&amp;_summary::-webkit-details-marker]:hidden">
-              <summary className="flex lg:cursor-none items-center justify-between gap-4 border-2 border-black bg-white px-4 py-3 font-medium text-gray-900 shadow-[4px_4px_0_0] hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-0">
-                <span className="font-semibold text-md lg:text-md">Learn Data Structure and Algorithm using Python</span>
-
-                <svg className="size-5 shrink-0 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </summary>
-
-              <div className="p-4 flex flex-row gap-3 justify-start item-start">
-
-                <Link href="https://www.youtube.com/watch?v=nIVW4P8b1VA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf&pp=iAQB">
-                  <img src="https://i.ytimg.com/vi/KLlXCFG5TnA/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBAhJmbgOeFFayTD6UbmjWO5DHkug" className="lg:h-27 lg:w-48 h-9 w-16" alt="Link" />
-                  <p className=" text-xs lg:text-sm">🔗 Leetcode Blind 75</p>
-
-
-                </Link>
-
-
-
-
-
-              </div>
-            </details>
-          </div>
-
-        </section>
 
         {/*Footer */}
         <footer className="text-center w-screen py-6 text-slate-700  text-sm px-4">
