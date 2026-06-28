@@ -40,7 +40,7 @@ const BlogCard = ({ title, excerpt, category, readTime, color, link, date, autho
 
       <div onClick={() => handleGoToBlog(link)} className={`${colorClasses[color]}  w-full border-b-[3px] border-foreground px-4 py-2 flex items-center justify-between gap-3`}>
 
-        <h1 className="neoBrutalism uppercase">{category}</h1>
+        <h1 className="neoBrutalism text-sm lg:text-sm tracking-wider uppercase">{category}</h1>
         
 
 
@@ -49,13 +49,13 @@ const BlogCard = ({ title, excerpt, category, readTime, color, link, date, autho
 
 
       <div className={`p-6 flex flex-col  neoBrutalism justify-evenly h-auto `}>
-        <h3 className={`font-bold mb-3 text-xl `}>
+        <h3 className={`lg:font-bold font-semibold mb-3 lg:text-lg `}>
           {title}
         </h3>
-        <p className={` text-md mb-3`}>
+        <p className={` lg:text-md text-sm mb-3`}>
           {excerpt}
         </p>
-        <p className="text-sm italic">Written on {date} by {author}</p>
+        <p className="lg:text-sm text-xs italic">Written on {date} by {author}</p>
          
 
 
